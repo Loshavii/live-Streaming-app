@@ -55,7 +55,7 @@ const theme = {
 // CSS Styles
 const styles = {
   container: {
-    minHeight: '10vh',
+    minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -143,7 +143,7 @@ const ParticleAnimation = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 overflow-hidden">
+    <div className="absolute inset-0 overflow-hidden h-auto">
       {particles.map((particle) => (
         <div
           key={particle.id}
